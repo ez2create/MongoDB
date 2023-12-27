@@ -1,0 +1,29 @@
+{
+  "name": "express-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ez2create/Express-project.git"
+  },
+  "author": "Sohail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ez2create/Express-project/issues"
+  },
+  "homepage": "https://github.com/ez2create/Express-project#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
